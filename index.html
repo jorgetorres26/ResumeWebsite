@@ -1,136 +1,503 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
-<title>Joe Bloggs - Curriculum Vitae</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Jorge Torres - Traveller - Free Thinker - Blah Blah</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+ <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
+  <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-72x72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-114x114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-144x144-precomposed.png">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+  <script src="js/vendor/jquery.hashchange.min.js"></script>
+  <script src="js/vendor/jquery.easytabs.min.js"></script>
 
-<meta name="viewport" content="width=device-width"/>
-<meta name="description" content="The Curriculum Vitae of Joe Bloggs."/>
-<meta charset="UTF-8"> 
-
-<link type="text/css" rel="stylesheet" href="style.css">
-<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
-
-<!--[if lt IE 9]>
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+  <script src="js/main.js"></script>
+  <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+      <![endif]-->
 </head>
-<body id="top">
-<div id="cv" class="instaFade">
-	<div class="mainDetails">
-		<div id="headshot" class="quickFade">
-			<img src="headshot.jpg" alt="Alan Smith" />
-		</div>
-		
-		<div id="name">
-			<h1 class="quickFade delayTwo">Joe Bloggs</h1>
-			<h2 class="quickFade delayThree">Job Title</h2>
-		</div>
-		
-		<div id="contactDetails" class="quickFade delayFour">
-			<ul>
-				<li>e: <a href="mailto:joe@bloggs.com" target="_blank">joe@bloggs.com</a></li>
-				<li>w: <a href="http://www.bloggs.com">www.bloggs.com</a></li>
-				<li>m: 01234567890</li>
-			</ul>
-		</div>
-		<div class="clear"></div>
-	</div>
-	
-	<div id="mainArea" class="quickFade delayFive">
-		<section>
-			<article>
-				<div class="sectionTitle">
-					<h1>Personal Profile</h1>
-				</div>
-				
-				<div class="sectionContent">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor metus, interdum at scelerisque in, porta at lacus. Maecenas dapibus luctus cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
-				</div>
-			</article>
-			<div class="clear"></div>
-		</section>
-		
-		
-		<section>
-			<div class="sectionTitle">
-				<h1>Work Experience</h1>
-			</div>
-			
-			<div class="sectionContent">
-				<article>
-					<h2>Job Title at Company</h2>
-					<p class="subDetails">April 2011 - Present</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
-				</article>
-				
-				<article>
-					<h2>Job Title at Company</h2>
-					<p class="subDetails">Janruary 2007 - March 2011</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
-				</article>
-				
-				<article>
-					<h2>Job Title at Company</h2>
-					<p class="subDetails">October 2004 - December 2006</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
-				</article>
-			</div>
-			<div class="clear"></div>
-		</section>
-		
-		
-		<section>
-			<div class="sectionTitle">
-				<h1>Key Skills</h1>
-			</div>
-			
-			<div class="sectionContent">
-				<ul class="keySkills">
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-				</ul>
-			</div>
-			<div class="clear"></div>
-		</section>
-		
-		
-		<section>
-			<div class="sectionTitle">
-				<h1>Education</h1>
-			</div>
-			
-			<div class="sectionContent">
-				<article>
-					<h2>College/University</h2>
-					<p class="subDetails">Qualification</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim.</p>
-				</article>
-				
-				<article>
-					<h2>College/University</h2>
-					<p class="subDetails">Qualification</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim.</p>
-				</article>
-			</div>
-			<div class="clear"></div>
-		</section>
-		
-	</div>
-</div>
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-3753241-1");
-pageTracker._initData();
-pageTracker._trackPageview();
-</script>
+  <body class="bg-fixed bg-1">
+<!--[if lt IE 7]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+   <div class="main-container">
+    <div class="main wrapper clearfix">
+      <!-- Header Start -->
+        <header id="header">
+            <div id="logo">
+                <h2>
+                    Jorge Torres
+                </h2>
+                <h4>
+                    Informatics Student 
+                </h4>
+            </div>
+        </header>
+        <!-- Header End -->
+        <!-- Main Tab Container -->
+        <div id="tab-container" class="tab-container">
+          <!-- Tab List -->
+            <ul class='etabs'>
+                <li class='tab' id="tab-about">
+                  <a href="#about"><i class="icon-user"></i><span> About Me</span></a>
+                </li>
+                <li class='tab'>
+                  <a href="#resume"><i class="icon-file-text"></i><span> Resume</span></a>
+                </li>
+                <li class='tab'>
+                  <a href="#portfolio"><i class="icon-heart"></i><span> Portfolio</span></a>
+                </li>
+                <li class='tab'>
+                  <a href="#contact"><i class="icon-envelope"></i><span> Contact</span></a>
+                </li>
+            </ul>
+          <!-- End Tab List -->
+            <div id="tab-data-wrap">
+              <!-- About Tab Data -->
+                <div id="about">
+                    <section class="clearfix">
+                        <div class="g2">
+                            <div class="photo">
+                                <img src="https://scontent.fsnc1-5.fna.fbcdn.net/v/t1.0-9/20091_10153459144589801_4524922121159965456_n.jpg?oh=a0f99240fac058022a0218dff1fba82b&oe=5901DC42" alt="Jorge Torres">
+                            </div>
+                            <div class="info">
+                                <h2>
+                                    Jorge Torres
+                                </h2>
+                                <h4>
+                                   Informatics Student
+                                </h4>
+                                <p>
+                                    I am currently a Junior at the University of Washington’s Information School, specializing in Human Computer Interaction. The Informatics program at the Information School offers me a plethora of skills such as: programming, designing, project management, networking, database management, and web development; similar to a Computer Science program but with a Human-Centered approach. Through my coursework I have experience with both the programming, designing, and research aspects in developing websites and mobile applications. I have developed programs in Java, C#, while also creating websites with HTML, CSS and JavaScript. I also have experience with Relational Database Systems through Microsoft’s SQL Studio. Apart from my technical experience through coursework, I also have experience with working with teams and leadership. In my previous college, I worked as the Program Coordinator for El Centro Latino, a Student Program in Bellevue College (Bellevue, WA) which gave me the opportunity to direct this student program offering services to the college’s Latino students. There I managed the program’s finances, as well as managing projects such as: fundraisers, cultural events and educational trips while helping students in developing their academic and professional skills. 
+                                </p>
+                            </div>
+                        </div>
+
+						 <div class="g1">
+                            <div class="main-links sidebar">
+                                <ul>
+                                    <li>
+                                        <a href="#resume">View My Resume</a>
+                                    </li>
+                                    <li>
+                                        <a href="#portfolio">My Portfolio</a>
+                                    </li>
+                                    <li>
+                                        <a href="#contact">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="break"></div>
+						<h4> Interests </h4>
+							<p> I have always developed a passion for tech; but also for music, 
+								sports and video games. Whether it is with my bass guitar or with my ukelele, in my free time I try to 
+								relax by playing some music and learning new songs. Coming from the island of Puerto Rico, baseball was 
+								my favorite sport growing up; but then I found a love for basketball, tennis, soccer and most recently, 
+								Football and Hockey. My favorite teams are the Seahawks, the Mariners, and the Sounders. As my passion for 
+								enjoying sports grew, my gaming interests shifted from Call of Duty, Halo and Assassins Creed to sports 
+								games like NBA 2K, EA Sports FIFA and Madden. I am currently trying to travel more around the world, as 
+								I haven't really been anywhere except from the US and Canada (and of course my casa, Puerto Rico). My goal
+								for this year is to hopefully travel to Mexico.
+							</p>
+
+
+
+                        <div class="contact-info">
+                          <div class="g1">
+                            <div class="item-box clearfix">
+                              <i class="icon-envelope"></i>
+                              <div class="item-data">
+                                <h3><a href="mailto:jorgeg26@uw.edu">jorgeg26@uw.edu</a></h3>
+                                <p>Email Address</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="g1">
+                            <div class="item-box clearfix">
+                              <i class="icon-facebook"></i>
+                              <div class="item-data">
+								<h3><a href="https://www.linkedin.com/in/jorgetorres26">Jorge Torres</a></h3>
+                                <p>LinkedIn Profile</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="g1">
+                            <div class="item-box clearfix">
+                              <i class="icon-twitter"></i>
+                              <div class="item-data">
+                                <h3><a href="https://github.com/jorgetorres26">jorgetorres26</a></h3>
+                                <p>Github</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </section><!-- content -->
+                </div>
+              <!-- End About Tab Data -->
+              <!-- Resume Tab Data -->
+                <div id="resume">
+                    <section class="clearfix">
+                        <div class="g2">
+                            <h3>
+                                Work Experience
+                            </h3>
+                            <ul class="no-list work">
+                                <li>
+                                    <h5>
+                                        Technology Sales Associate at Staples, Inc.
+									</h5><span class="label label-info">July 2016 - Present </span> 
+                                    <p>
+										Processed transactions and generated sales for technology equipment including Laptops, Desktops, Tablets, Mobile Phones and office equipment; while also repairing computers through the EasyTech technology support service. 
+                                    </p>
+                                </li>
+                                <li>
+                                    <h5>
+                                        Program Coordinator at Bellevue College
+                                    </h5><span class="label label-info">July 2015 - June 2016</span>
+                                    <p>
+										Directed and presided the El Centro Latino Student Program at Bellevue College. Managed the program’s finances; planned cultural, educational, outreach, and social events; presided meetings with program and club officers, established professional relationships with local Latino organizations and leaders, and assisted students in developing academic, professional and leadership skills. 
+                                    </p>
+                                </li>
+                                <li>
+                                    <h5>
+                                        Human Resources Assistant at Bellevue College
+                                    </h5><span class="label label-info">Jan 2015 - June 2015</span>
+                                    <p>
+										Assisted Benefits Specialists and Human Resources Managers on duties that include filing, data entry, and mailing confidential employee information.
+                                    </p>
+                                </li>
+                            </ul>
+                            <h3>
+                                Education
+                            </h3>
+                            <ul class="no-list work">
+                                <li>
+                                    <h5>
+                                        University of Washington Information School
+                                    </h5><span class="label label-success">2016 - Present</span>
+                                    <p>
+										Bachelor's of Science in Informatics
+										<br>
+											<br>
+												<b> Coursework: </b>
+											
+											<ul id="no-bullets">
+												<li> INFO 200: Intellectual Foundations of Informatics </li>
+												<li> INFO 343: Client Side Web Development </li> 
+												<li> INFO 340: Relational Database Management Systems </li>
+												<li> INFO 360: UX Design Thinking </li>
+												 INFO 450: Information Ethics and Policy 
+											</ul>
+                                    </p>
+                                </li>
+                                <li>
+                                    <h5>
+                                        Bellevue College
+                                    </h5><span class="label label-info">2014 - 2016</span>
+                                    <p>
+										Associate's in Arts and Sciences
+										<br>
+											<br>
+												<b> Coursework: </b>
+											
+											<ul id="no-bullets">
+												<li> Computer Science 210 (Java) </li>
+												<li> Communications 101  </li> 
+												<li> Business Administration 240: Statistical Analysis </li>
+												<li> Audio Production 156</li>
+												<li> Business 101 </li>
+												<li> Programming 110 (C#)</li>
+												<li> Calculus I 151 </li>
+												<li> Psychology 100 </li>
+												<li> Microeconomics 201 </li>
+												<li> Music Technology 150 </li>
+												<li> Sociology 101 </li>
+												 Astronomy 101
+											</ul>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="g1">
+                            <div class="sidebar">
+                                <h3>
+                                    Skills
+                                </h3>
+
+
+								<h5>
+                                    Interpersonal Skills
+                                </h5>
+
+								  <div class="meter emerald">
+                                    <span style="width: 90%" ><span> Leadership </span></span>
+                                </div>
+                                <div class="meter carrot">
+                                    <span style="width: 90%"><span> Teamwork</span></span>
+                                </div>
+                                <div class="meter wisteria">
+                                    <span style="width: 80%"><span>Project Management</span></span>
+                                </div>
+                                <div class="meter sunflower">
+                                    <span style="width: 80%"><span>Public Speaking</span></span>
+                                </div>
+
+
+								<h5>
+                                    Languages
+                                </h5>
+                                <div class="meter carrot">
+                                    <span ><span>English</span></span>
+                                </div>
+                                <div class="meter wisteria">
+                                    <span><span>Spanish</span></span>
+                                </div>
+
+								<div class="break"></div>
+
+								<h5>
+                                    Object-Oriented Programming
+                                </h5>
+                                <div class="meter emerald">
+                                    <span style="width: 40%"><span>C#</span></span>
+                                </div>
+                                <div class="meter carrot">
+                                    <span style="width: 60%"><span>Java</span></span>
+                                </div>
+
+								<div class="break"></div>
+
+								<h5>
+                                    Operating Systems
+                                </h5>
+                                <div class="meter carrot">
+                                    <span style="width: 90%"><span>Windows</span></span>
+                                </div>
+                                <div class="meter wisteria">
+                                    <span style="width: 70%"><span>Mac OS</span></span>
+                                </div>
+
+								<div class="break"></div>
+
+								<h5>
+                                    Relational Database Management
+                                </h5>
+                                <div class="meter emerald">
+                                    <span style="width: 50%"><span>SQL Server</span></span>
+                                </div>
+
+								<div class="break"></div>
+
+                                <h5>
+                                    Software
+                                </h5>
+                                <div class="meter emerald">
+                                    <span ><span> Microsoft Word</span></span>
+                                </div>
+                                <div class="meter carrot">
+                                    <span style="width: 90%"><span>Microsoft PowerPoint</span></span>
+                                </div>
+                                <div class="meter wisteria">
+                                    <span style="width: 70%"><span>Microsoft Excel</span></span>
+                                </div>
+                                <div class="meter sunflower">
+                                    <span style="width: 70%"><span>Visual Studio</span></span>
+                                </div>
+                                
+            
+
+                                <div class="break"></div>
+                                <h5>
+                                    UX Design / Prototyping
+                                </h5>
+                                <div class="meter emerald">
+                                    <span style="width: 50%"><span>Axure</span></span>
+                                </div>
+                                <div class="meter carrot">
+                                    <span style="width: 70%"><span>Justinmind</span></span>
+                                </div>
+                                <div class="meter wisteria">
+                                    <span style="width: 30%"><span>Adobe Xd</span></span>
+                                </div>
+                                <div class="break"></div>
+
+
+                                <h5>
+                                    Web Development
+                                </h5>
+                                <div class="meter emerald">
+                                    <span ><span>HTML</span></span>
+                                </div>
+                                <div class="meter carrot">
+                                    <span><span>CSS</span></span>
+                                </div>
+                                <div class="meter wisteria">
+                                    <span style="width: 60%"><span>JavaScript</span></span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+              <!-- End Resume Tab Data -->
+              <!-- Portfolio Tab Data -->
+                <div id="portfolio">
+                    <section class="clearfix">
+                        <div class="g1">
+                            <div class="image">
+                                <img src="http://lorempixel.com/306/306/sports/1" alt="">
+                                <div class="image-overlay">
+                                    <div class="image-link">
+                                        <a href="http://lorempixel.com/606/606/sports/1" class="btn">Full View</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="g1">
+                            <div class="image">
+                                <img src="http://lorempixel.com/306/306/sports/2" alt="">
+                                <div class="image-overlay">
+                                    <div class="image-link">
+                                        <a href="http://lorempixel.com/606/606/sports/2" class="btn">Full View</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="g1">
+                            <div class="image">
+                                <img src="http://lorempixel.com/306/306/sports/3" alt="">
+                                <div class="image-overlay">
+                                    <div class="image-link">
+                                        <a href="http://lorempixel.com/606/606/sports/3" class="btn">Full View</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="break"></div>
+                        <div class="g1">
+                            <div class="image">
+                                <img src="http://lorempixel.com/306/306/sports/4" alt="">
+                                <div class="image-overlay">
+                                    <div class="image-link">
+                                        <a href="http://lorempixel.com/606/606/sports/4" class="btn">Full View</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="g1">
+                            <div class="image">
+                                <img src="http://lorempixel.com/306/306/sports/5" alt="">
+                                <div class="image-overlay">
+                                    <div class="image-link">
+                                        <a href="http://lorempixel.com/606/606/sports/5" class="btn">Full View</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="g1">
+                            <div class="image">
+                                <img src="http://lorempixel.com/306/306/business/2" alt="">
+                                <div class="image-overlay">
+                                    <div class="image-link">
+                                        <a href="http://lorempixel.com/606/606/business/2" class="btn">Full View</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </section>
+                </div>
+              <!-- End Portfolio Data -->
+              <!-- Contact Tab Data -->
+                <div id="contact">
+                    <section class="clearfix">
+                       <div class="g1">
+                         <div class="sny-icon-box">
+                           <div class="sny-icon">
+                              <i class="icon-globe"></i>
+                            </div>
+                            <div class="sny-icon-content">
+                              <h4>Email</h4>
+                              <p>jorgeg26@uw.edu</p>
+                            </div>
+                         </div>
+                       </div>
+
+					   <div class="g1">
+                         <div class="sny-icon-box">
+                           <div class="sny-icon">
+                              <i class="icon-user"></i>
+                            </div>
+                            <div class="sny-icon-content">
+                              <h4>LinkedIn</h4>
+                              <p>https://www.linkedin.com/in/jorgetorres26</p>
+                            </div>
+                         </div>
+                       </div>
+
+                       <div class="g1">
+                         <div class="sny-icon-box">
+                           <div class="sny-icon">
+                              <i class="icon-globe"></i>
+                            </div>
+                            <div class="sny-icon-content">
+                              <h4>Github</h4>
+                              <p>https://github.com/jorgetorres26</p>
+                            </div>
+                         </div>
+                       </div>
+
+
+					   <div class="g1">
+                         <div class="sny-icon-box">
+                           <div class="sny-icon">
+                              <i class="icon-phone"></i>
+                            </div>
+                            <div class="sny-icon-content">
+                              <h4>Phone Number</h4>
+							  <p>(939) 247-5440 </p>
+                            </div>
+                         </div>
+                       </div>
+                       <div class="g1">
+                         <div class="sny-icon-box">
+                           <div class="sny-icon">
+                              <i class="icon-globe"></i>
+                            </div>
+                            <div class="sny-icon-content">
+                              <h4>Location</h4>
+                              <p>Redmond, Washington 98052</p>
+                            </div>
+                         </div>
+                       </div>
+                       <div class="break"></div>
+                       
+                    </section>
+              <!-- End Contact Data -->
+            </div>
+        </div>
+        <!-- End Tab Container -->
+		<!--
+        <footer>
+            <p>
+            </p>
+        </footer> -->
+    </div><!-- #main -->
+</div><!-- #main-container -->
+
+
+
 </body>
 </html>
